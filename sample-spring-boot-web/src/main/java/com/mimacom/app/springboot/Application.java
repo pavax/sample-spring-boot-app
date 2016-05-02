@@ -21,7 +21,7 @@ public class Application extends SpringBootServletInitializer {
 //        public LocalContainerEntityManagerFactoryBean entityManagerFactory(
 //                EntityManagerFactoryBuilder factoryBuilder) {
 //            final LocalContainerEntityManagerFactoryBean ret = super.entityManagerFactory(factoryBuilder);
-//            ret.setMappingResources("orm.xml");
+//            ret.setMappingResources("META-INF/orm.xml");
 //            return ret;
 //        }
 //    }
