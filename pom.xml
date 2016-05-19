@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.4.0.M2</version>
+        <version>1.4.0.M3</version>
     </parent>
 
     <properties>
@@ -28,21 +28,9 @@
         <dependencies>
             <dependency>
                 <groupId>com.mimacom.app</groupId>
-                <artifactId>spring-boot-domain</artifactId>
+                <artifactId>sample-spring-boot-domain</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-
-    <repositories>
-        <repository>
-            <id>spring-snapshots</id>
-            <name>Spring Snapshots</name>
-            <url>https://repo.spring.io/libs-snapshot</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
 </project>
